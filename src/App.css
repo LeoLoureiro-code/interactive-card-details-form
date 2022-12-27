@@ -6,18 +6,15 @@
 }
 
 .gradient-bg{
-  background: linear-gradient(hsl(249, 99%, 64%), hsl(278, 94%, 30%));
-  width: 100%;
+  /* background-image: url('./images/bg-main-desktop.png');
+  background-size: cover;
   height: 30vh;
+  width: 100%;
+  background-repeat: no-repeat; */
 }
 
-
-
-@media screen and(min-width: 1439px) {
-  
-  .gradient-bg{
-    background: black;
-    width: 100vw;
-    height: 100vh;
-  }
+.white-bg{
+  width: 100%;
+  height: 70vh;
+  background-color: hsl(0, 0%, 100%);
 }

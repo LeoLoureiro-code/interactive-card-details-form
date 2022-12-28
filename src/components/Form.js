@@ -1,10 +1,17 @@
 import Input from "./Input"
 
-const Form = () =>{
+const Form = (props) =>{
     return(
         <div>
             <form>
-                <Input />
+                <span>CARDHOLDER NAME</span>
+                <Input handleEvent = {props.handleEvent}/>
+                <span>CARD NUMBER</span>
+                <Input handleEvent = {props.handleEvent}/>
+                <div>
+                    <span>EXP. DATE (MM/YY)</span><span>CVC</span>
+                    <Input /> <Input /> <Input />
+                </div>
             </form>
         </div>
     )

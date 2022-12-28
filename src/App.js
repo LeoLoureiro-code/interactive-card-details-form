@@ -23,7 +23,7 @@ const App = () =>{
       <div className ='gradient-bg' ></div>
       <div className='white-bg'></div>
       <div>
-        <Form />
+        <Form handleChange = {handleChange}/>
       </div>
     </div>
   )
